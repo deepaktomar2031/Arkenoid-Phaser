@@ -1,0 +1,40 @@
+<!doctype Html>
+<html>
+
+<head>
+    <title>First Html Game using Phaser</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        #game {
+            display: block;
+            background-color: gray;
+            width: 800px;
+            height: 600px;
+            margin: 0 auto;
+        }
+    </style>
+
+</head>
+
+<body>
+    <main id="gameContainer">
+        <!-- <canvas id="game" width="800px" height="600px"></canvas> -->
+    </main>
+    <div id="loader">
+        <div id="logo"></div>
+        <div id="progress">
+            <div id="progressBarBack" class="progressBar"></div>
+            <div id="progressBar" class="progressBar"></div>
+            <div id="progressPercent">10%</div>
+        </div>
+    </div>
+    <script src="lib/phaser.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
